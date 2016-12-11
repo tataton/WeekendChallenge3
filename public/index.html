@@ -21,64 +21,87 @@
       </div>
     </div>
     <div class="container">
-      <p id="buffer"></p>
-      <p id="displayText"></p>
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2">
+          <div class="panel panel-default">
+            <div class="panel-heading" id="buffer"></div>
+            <div class="panel-body" id="displayText"></div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="container">
-      <form class="form-horizontal">
-        <div class="form-group">
-          <div class="col-xs-3">
+  <!--    <form class="form-horizontal">   -->
+        <div class="row">
+          <div class="col-xs-2 col-xs-offset-2">
+          </div>
+          <div class="col-xs-2">
             <button type="button" class="btn btn-default btn-lg btn-block" id="clear-all">CE</button>
           </div>
-          <div class="col-xs-3">
+          <div class="col-xs-2">
             <button type="button" class="btn btn-default btn-lg btn-block" id="clear-display">C</button>
           </div>
-          <div class="col-xs-3">
-          </div>
-          <div class="col-xs-3">
+          <div class="col-xs-2">
             <button type="button" data-value="divide" class="btn btn-default btn-lg btn-block operator">&divide;</button>
           </div>
         </div>
-        <div class="form-group">
-          <div class="col-xs-3">
+        <div class="row">
+          <div class="col-xs-2 col-xs-offset-2">
             <button type="button" data-value="7" class="btn btn-default btn-lg btn-block numeric">7</button>
           </div>
-          <div class="col-xs-3">
+          <div class="col-xs-2">
             <button type="button" data-value="8" class="btn btn-default btn-lg btn-block numeric">8</button>
           </div>
-          <div class="col-xs-3">
+          <div class="col-xs-2">
             <button type="button" data-value="9" class="btn btn-default btn-lg btn-block numeric">9</button>
           </div>
-          <div class="col-xs-3">
+          <div class="col-xs-2">
             <button type="button" data-value="multiply" class="btn btn-default btn-lg btn-block operator">&times;</button>
           </div>
-
-
-
-
-
-
-
-
-
-          <button type="button" data-value="6" class="btn btn-default btn-lg btn-block numeric">6</button>
-          <button type="button" data-value="5" class="btn btn-default btn-lg btn-block numeric">5</button>
-          <button type="button" data-value="4" class="btn btn-default btn-lg btn-block numeric">4</button>
-          <button type="button" data-value="3" class="btn btn-default btn-lg btn-block numeric">3</button>
-          <button type="button" data-value="2" class="btn btn-default btn-lg btn-block numeric">2</button>
-          <button type="button" data-value="1" class="btn btn-default btn-lg btn-block numeric">1</button>
-          <button type="button" data-value="0" class="btn btn-default btn-lg btn-block numeric">0</button>
-          <button type="button" class="btn btn-default btn-lg" id="period">.</button>
-          <button type="button" class="btn btn-default btn-lg" id="plus-minus">&plusmn;</button>
-          <button type="button" data-value="add" class="btn btn-default btn-lg operator">+</button>
-          <button type="button" data-value="subtract" class="btn btn-default btn-lg operator">-</button>
-
-
-
-
-          <button type="button" class="btn btn-default btn-lg" id="enter">Enter</button>
         </div>
-      </form>
+        <div class="row">
+          <div class="col-xs-2 col-xs-offset-2">
+            <button type="button" data-value="4" class="btn btn-default btn-lg btn-block numeric">4</button>
+          </div>
+          <div class="col-xs-2">
+            <button type="button" data-value="5" class="btn btn-default btn-lg btn-block numeric">5</button>
+          </div>
+          <div class="col-xs-2">
+            <button type="button" data-value="6" class="btn btn-default btn-lg btn-block numeric">6</button>
+          </div>
+          <div class="col-xs-2">
+            <button type="button" data-value="subtract" class="btn btn-default btn-lg btn-block operator">-</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-2 col-xs-offset-2">
+            <button type="button" data-value="1" class="btn btn-default btn-lg btn-block numeric">1</button>
+          </div>
+          <div class="col-xs-2">
+            <button type="button" data-value="2" class="btn btn-default btn-lg btn-block numeric">2</button>
+          </div>
+          <div class="col-xs-2">
+            <button type="button" data-value="3" class="btn btn-default btn-lg btn-block numeric">3</button>
+          </div>
+          <div class="col-xs-2">
+            <button type="button" data-value="add" class="btn btn-default btn-lg btn-block operator">+</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-2 col-xs-offset-2">
+            <button type="button" class="btn btn-default btn-lg btn-block" id="plus-minus">&plusmn;</button>
+          </div>
+          <div class="col-xs-2">
+            <button type="button" data-value="0" class="btn btn-default btn-lg btn-block numeric">0</button>
+          </div>
+          <div class="col-xs-2">
+            <button type="button" class="btn btn-default btn-lg btn-block" id="period">.</button>
+          </div>
+          <div class="col-xs-2">
+            <button type="button" class="btn btn-default btn-lg btn-block" id="enter">=</button>
+          </div>
+        </div>
+<!--      </form>   -->
     </div>
   </body>
 </html>

@@ -1,3 +1,18 @@
 .btn-lg {
   font-size: 24pt;
 }
+
+.col-xs-2 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+ .panel-body {
+   font-size: 24pt;
+   text-align: right;
+ }
+
+ .panel-heading {
+   height: 42px;
+   text-align: right;
+ }
