@@ -104,14 +104,14 @@ var updateDisplay = function(){
       operationText = '-';
       break;
     case 'multiply':
-      operationText = 'x';
+      operationText = '&times;';
       break;
     case 'divide':
-      operationText = '/';
+      operationText = '&divide;';
       break;
     default:
       operationText = '';
   }
-  $('#buffer').text(bufferText + ' ' + operationText);
+  $('#buffer').html(bufferText + ' ' + operationText);
   $('#displayText').text(displayText);
 };
