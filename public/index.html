@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weekend Challenge 3: Calculator</title>
+    <script type="text/javascript" src="scripts/vendors/jquery-3.1.1.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header text-center">
+        <h1>Prime Academy Calculator</h1>
+      </div>
+    </div>
+    <div class="container">
+      <p id="buffer"></p>
+      <p id="displayText"></p>
+    </div>
+    <div class="container">
+      <form class="form-horizontal">
+        <div class="form-group">
+          <div class="col-xs-3">
+            <button type="button" class="btn btn-default btn-lg btn-block" id="clear-all">CE</button>
+          </div>
+          <div class="col-xs-3">
+            <button type="button" class="btn btn-default btn-lg btn-block" id="clear-display">C</button>
+          </div>
+          <div class="col-xs-3">
+          </div>
+          <div class="col-xs-3">
+            <button type="button" data-value="divide" class="btn btn-default btn-lg btn-block operator">&divide;</button>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-3">
+            <button type="button" data-value="7" class="btn btn-default btn-lg btn-block numeric">7</button>
+          </div>
+          <div class="col-xs-3">
+            <button type="button" data-value="8" class="btn btn-default btn-lg btn-block numeric">8</button>
+          </div>
+          <div class="col-xs-3">
+            <button type="button" data-value="9" class="btn btn-default btn-lg btn-block numeric">9</button>
+          </div>
+          <div class="col-xs-3">
+            <button type="button" data-value="multiply" class="btn btn-default btn-lg btn-block operator">&times;</button>
+          </div>
+
+
+
+
+
+
+
+
+
+          <button type="button" data-value="6" class="btn btn-default btn-lg btn-block numeric">6</button>
+          <button type="button" data-value="5" class="btn btn-default btn-lg btn-block numeric">5</button>
+          <button type="button" data-value="4" class="btn btn-default btn-lg btn-block numeric">4</button>
+          <button type="button" data-value="3" class="btn btn-default btn-lg btn-block numeric">3</button>
+          <button type="button" data-value="2" class="btn btn-default btn-lg btn-block numeric">2</button>
+          <button type="button" data-value="1" class="btn btn-default btn-lg btn-block numeric">1</button>
+          <button type="button" data-value="0" class="btn btn-default btn-lg btn-block numeric">0</button>
+          <button type="button" class="btn btn-default btn-lg" id="period">.</button>
+          <button type="button" class="btn btn-default btn-lg" id="plus-minus">&plusmn;</button>
+          <button type="button" data-value="add" class="btn btn-default btn-lg operator">+</button>
+          <button type="button" data-value="subtract" class="btn btn-default btn-lg operator">-</button>
+
+
+
+
+          <button type="button" class="btn btn-default btn-lg" id="enter">Enter</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
