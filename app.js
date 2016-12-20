@@ -3,7 +3,7 @@ var app = express();
 var path = require('path');
 var bodyParser = require('body-parser');
 var urlEncodedParser = bodyParser.urlencoded({extended:true});
-var PORT_TO_USE = 8080;
+var PORT_TO_USE = process.env.PORT || 8080;
 
 app.use(express.static('public'));
 
